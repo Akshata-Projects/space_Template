@@ -1,0 +1,297 @@
+*{
+    padding: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(139, 138, 138);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.HomePage{
+    background-color: white;
+    padding: 10px;
+    margin: 0 35% 0 15%;
+    width: 1000px;
+    
+}
+
+.navbar{
+    margin-bottom: 60px;
+}
+
+.navbar ul li{
+    list-style: none;
+    width: 200px;
+    /* border: 2px solid red; */
+    text-align: center;
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    display: inline-block;
+    color: darkgray;
+}
+
+.navbar li a:hover{
+   background-color: chocolate;
+   color: white;
+   padding: 15px;
+   
+}
+
+.title{
+    border-left:6px solid chocolate;
+    width: 100px;
+    /* to make heading center and add space bottom */
+     margin: 0px auto 20px auto;
+    
+    
+}
+
+.header_img
+{   
+    height: 500px;
+    width: 100%;
+    background-image: url("Images/living-room.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px auto 50px auto;
+}
+
+.header_img img{
+    height: auto;
+    max-width: 100%;
+
+}
+
+.card{
+    /* border:2px solid green; */
+    background:chocolate;
+    width:30%;
+    height:400px;
+    margin-left:3%;
+}
+
+label{
+    
+    color: white;
+}
+
+.text{
+    background-color: darkgray;
+    margin:0px !important;
+    padding: 10px;
+    height: 31.5%;
+    border-bottom-right-radius: 60px;
+    
+}
+
+.card-img{
+    background-image: url("Images/home1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:250px;
+    margin: 0px;
+}
+
+.card2{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    margin-left: 36%;
+    float: left;
+    margin-top: -408px;
+}
+
+
+.card-img2{
+    background-image: url("Images/home2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:250px;
+    margin: 0px;
+}
+
+
+
+.card3{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    margin-left: 69%;
+    float: left;
+    margin-top: -408px;
+}
+
+
+.card-img3{
+    background-image: url("Images/home3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:250px;
+    margin: 0px;
+}
+
+.card-text 
+{
+    /* border: 2px blue solid; */
+    width:30%;
+    height:300px;
+    margin-left:4%;
+    color: grey;
+    text-align: left;
+}
+
+.card-text2 {
+
+    /* border: 2px blue solid; */
+    width:30%;
+    height:300px;
+    margin-left:36%;
+    float: left;
+    text-transform: capitalize;
+    color: grey;
+    margin-top: -305px;
+    text-align: left;
+}
+
+
+span{
+    text-transform: capitalize;
+    color: gainsboro;
+}
+
+.card-text2 p{
+    font-size: 12px;
+}
+
+.card-text2 button{
+    border: none;
+    height:40px;
+    width: 100px;
+    background-color: gray;
+    color: white;
+}
+
+.card-text3 {
+
+    /* border: 2px blue solid; */
+    width:30%;
+    height:300px;
+    margin-left:69%;
+    float: left;
+    text-transform: capitalize;
+    color: grey;
+    margin-top: -305px;
+    text-align: left;
+}
+
+.card-text3 p{
+    font-size: 12px;
+}
+
+.card-text3 button{
+    border: none;
+    height:40px;
+    width: 100px;
+    background-color: gray;
+    color: white;
+}
+
+.card-text ul li{
+    font-size: 12px;
+    padding-top: 3px;
+    list-style: square;
+}
+
+.card15{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 90px;
+    margin-left: 35px;
+    background-color: darkgrey;
+}
+
+.card15 p{
+    /* margin-top: -50px; */
+    color: chocolate;
+    text-align: left;
+    padding-left: 150px;
+    margin-top: -80px;
+}
+
+.num
+{   
+    /* border: 2px solid white; */
+    text-align: center;
+    font-size: 60px;
+    background-color: chocolate;
+    color: white;
+    width: 30%;
+    height: 89px;
+    margin: 0px;
+}
+
+.numtxt
+{
+    color: gainsboro;
+    font-size: 10px;
+    text-align: center;
+    padding-left: 140px;
+   
+}
+
+.card-dolar{
+    
+    width: 45%;
+    height: 90px;
+    margin-left: 35px;
+    background-color: darkgrey;
+    float: right;
+    margin-top: -10%;
+}
+
+.card-dolar p{
+    /* margin-top: -50px; */
+    color: chocolate;
+    text-align: center;
+    padding-left: 150px;
+    margin-top: -80px;
+}
+
+.num-dolar
+{   
+    /* border: 2px solid white; */
+    text-align: center;
+    font-size: 60px;
+    background-color: chocolate;
+    color: white;
+    width: 30%;
+    height: 89px;
+    margin: 0px;
+}
+
+.dolartxt
+{
+    color: gainsboro;
+    font-size: 10px;
+    text-align: center;
+    padding-left: 140px;
+   
+}
+
+
+.clearfix
+{
+    clear: both;
+}
